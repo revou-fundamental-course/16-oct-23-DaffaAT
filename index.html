@@ -8,7 +8,65 @@
     <Link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <h1>Hello world</h1>
+    <header class="header">
+        <div class="nav-logo">
+            <img src="./Image/Logo-RevoU-5.png" alt="revou-logo">
+        </div>
+        <nav class="nav">
+            <a class="nav-item">Home</a>
+            <a class="nav-item">Our Profile<a>
+            <a class="nav-item">Portfolio</a>
+            <a href="#message-us" class="nav-item" id="nav-item.msg">Message us</a>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <div class="greetings">
+            <h1>Hi there, visitor!</h1>
+            <p>Welcome to my first web!</p>
+        </div>
+    </section>
+    <section class="headquarter">
+        <h1> Our HQ</h1>
+        <div class="hq-item" >
+            <div class="circle">
+                <h2 class="circle-text"> Jakarta </h2>
+            </div>
+            <div class="circle">
+                <h2 class="circle-text"> Depok</h2>
+            </div>
+            <div class="circle">
+                <h2 class="circle-text"> Bogor</h2>
+            </div>
+        </div>
+    </section>
+    <section id="message-us"  class="form">
+        <div class="form-left">
+            <form>
+                <h1>Message Us</h1>
+                <table>
+                    <tbody>
+                    <td>Name</td>
+                    <td>:</td>
+                    <td>
+                        <input id="name" name="name" type="text" placeholder="Name">
+                    </td>
+                    <td>Tanggal Lahir</td>
+                    <td>:</td>
+                    <td>
+                        <input id="Lahir" name="Lahir" type="text" placeholder="20/01/2000">
+                    </td>
+                    </tbody>
+                </table>
+            </form>
+        </div>
+        <div class="form-right"></div>
+    </section>
+    <footer class="footer">
+        <center>
+            <p class="footer-text">Made by Daffa</p>
+        </center>
+    </footer>
     <script src="./js/script.js"></script> 
 </body>
 </html>
